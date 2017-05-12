@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Common", "0 Common", "{2F4DDC60-A648-4F36-93B4-6F165CFA1558}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Presentation", "1 Presentation", "{7CB028F5-EBBF-4375-9A22-11D673769552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Service", "2 Service", "{D3F8FA8F-696E-40D4-B00B-8E701BEBF1A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 BLL", "3 BLL", "{F3C228E4-7D62-4318-9ED1-052B6B7FCA34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 DAL", "4 DAL", "{1E77BB5F-8A2F-49A2-9D2D-932C7E3F55EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Test", "5 Test", "{2A500589-5F48-4161-BDD0-B6B8FF03D069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ESBServer.Service.ESBServices", "OpenQbit.ESBServer.Service.ESBServices\OpenQbit.ESBServer.Service.ESBServices.csproj", "{8E78115D-5FEA-453B-A9DF-9154A9BA2CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E78115D-5FEA-453B-A9DF-9154A9BA2CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E78115D-5FEA-453B-A9DF-9154A9BA2CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E78115D-5FEA-453B-A9DF-9154A9BA2CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E78115D-5FEA-453B-A9DF-9154A9BA2CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E78115D-5FEA-453B-A9DF-9154A9BA2CFF} = {D3F8FA8F-696E-40D4-B00B-8E701BEBF1A4}
+	EndGlobalSection
+EndGlobal
